@@ -8,8 +8,8 @@ To build an end-to-end time series forecasting pipeline for climate-related indi
 
 ## 📂 Contents
 
-- `WinterAnalytics.ipynb` – Core notebook with EDA, modeling, and forecasting.
-- `Winter Analytics PS (4).pdf` – Official problem statement and guidelines.
+- `notebook.ipynb` – Core notebook with EDA, modeling, and forecasting.
+- `Problem Statement.pdf` – Official problem statement and guidelines.
 - `README.md` – You're here!
 
 ---
@@ -21,7 +21,6 @@ To build an end-to-end time series forecasting pipeline for climate-related indi
 - **Feature Engineering:** Extracted lag features, rolling statistics, and seasonal patterns.
 - **Modeling Techniques:**
   - ARIMA for trend-capture in stationary series
-  - Random Forest for multivariate regression
   - TimeSeriesSplit for validation
 - **Visualization:** Used Matplotlib and Seaborn for insight-driven graphs.
 
@@ -31,16 +30,7 @@ To build an end-to-end time series forecasting pipeline for climate-related indi
 
 > 🟢 *Predicted renewable energy share by 2070: 34% (vs. 50% target)*  
 > 🔴 *Carbon intensity projected to increase by ~60% (target was 45% decrease)*
-
-These findings highlight the current gap between India’s Net Zero ambitions and projected trends under historical momentum.
-
----
-
-## 🧠 Key Learnings
-
-- Feature engineering is **crucial** when dealing with time-structured data.
-- Even simple models like Random Forest can provide strong baselines with smart features.
-- Evaluation over time (e.g., **walk-forward validation**) matters more than static train-test splits.
+> 🟢 *Based on clustering, Bhutan stood for having most considerable change in its SDG indicators from the year 2005 to 2015*
 
 ---
 
@@ -56,14 +46,6 @@ These findings highlight the current gap between India’s Net Zero ambitions an
 
 - **Ashutosh Gupta** – Modeling, Feature Engineering, Results Analysis  
 - *Special thanks to the SocBiz Club IITR for mentoring and feedback.*
-
----
-
-## 📬 Contact
-
-For questions, collaborations, or further insights:  
-📧 ashutosh2028@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-link)
 
 ---
 
